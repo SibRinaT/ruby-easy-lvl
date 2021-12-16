@@ -1,0 +1,11 @@
+# encoding: cp1251
+puts "¬ведите х: "  
+x = gets.chomp
+
+puts "¬ведите у: "
+y = gets.to_i
+
+puts "¬ведите з: "
+z = gets.to_f
+
+print "x = #{x} y = #{y} z = #{z}"
