@@ -4,6 +4,11 @@ a = gets.to_i
 puts "Enter your favorite number: "
 f = gets.to_i
 
+puts "Enter your bad number: "
+b = gets.to_i
+b = gets.to_i
+
+
 1.upto(a) do |nn| 
 	#puts "Please press enter: "
 #gets 
@@ -14,5 +19,9 @@ f = gets.to_i
 		print "YOU WIN! "
  	else 
             print "lose! "
-end 
- 	end
+ 		if x == b
+		print "YOU ARE DEAD! "
+		
+		end	
+	end 
+ end
