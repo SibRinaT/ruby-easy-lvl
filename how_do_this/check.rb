@@ -5,15 +5,16 @@ xStr = x.to_s
 xInt = x.to_i
 xFlo = x.to_f
 
-if x == Integer  
+if x == Integer
   puts "int"
-end 
+end
 
 if x = String
   puts "str"
 end
 
-if x == Float 
+if x == Float
   puts "float"
-end  
-              	
+end
+              	ghtrhrthrthtr
+fds
